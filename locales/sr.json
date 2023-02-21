@@ -1,0 +1,119 @@
+{
+	"help": {
+		"description": "Prikaži sve komande i objažnjenja",
+		"embedTitle": "**Lista svih mojih komandi**",
+		"embedDescription": "A... Dobar dan"
+	},
+	"loop": {
+		"description": "Uključi/Isključi ponovno puštanje",
+		"errorNotQueue": "Ništa se ne pušta.",
+		"result": "Ponovno se pušta: {loop}"
+	},
+	"nowplaying": {
+		"description": "Prikazuje se pesma koja se trenutno pušta",
+		"errorNotQueue": "Ništa se ne pušta.",
+		"embedTitle": "Sada se pušta: ",
+		"live": " ◉ UŽIVO",
+		"timeRemaining": "Preostalo vreme: {time}"
+	},
+	"pause": {
+		"description": "Pauziraj muziku koja se trenutno pušta",
+		"errorNotQueue": "Ništa se ne pušta.",
+		"result": "<@{author}> ⏸ je pauzirao muziku."
+	},
+	"ping": {
+		"description": "Prikazuje prosečan ping",
+		"result": "📈 Prosečan ping do API-ja: {ping} ms"
+	},
+	"play": {
+		"description": "Pušta pesmu sa Jutjuba/Saundklauda",
+		"errorNotChannel": "Moraš se prvo pridružiti govornom kanalu!",
+		"errorNotInSameChannel": "Morate biti u istom kanalu kao {user}",
+		"usageReply": "Korišćenje: {prefix}play <YouTube URL | Video Name | Soundcloud URL>",
+		"missingPermissionConnect": "Ne mogu da se konektujem na vojs, niste mi dali permisije!",
+		"missingPermissionSpeak": "Ne mogu DA PRIČAM ALOOOOOOOOOOOO niste mi dali permisije!",
+		"queueAdded": "✅ **{title}** je dodata u red od strane <@{author}>",
+		"cantJoinChannel": "Ne mogu da se pridružim kanalu jer: {error}",
+		"queueEnded": "❌ Red muzike završen.",
+		"queueError": "Greška: {error}",
+		"startedPlaying": "🎶 Upravo pustio: **{title}**",
+		"skipSong": "<@{author}> ⏩ je preskočio pesmu",
+		"pauseSong": "<@{author}> ⏸ je pauzirao muziku.",
+		"resumeSong": "<@{author}> ▶ je ponovno pustio muziku!",
+		"unmutedSong": "<@{author}> 🔊 je anmjutovao muziku!",
+		"mutedSong": "<@{author}> 🔇 je mjutovao muziku!",
+		"decreasedVolume": "<@{author}> 🔉 je smanjio visinu tona, sada je visina {volume}%",
+		"increasedVolume": "<@{author}> 🔊 je povećao visinu tona, sada je visina {volume}%",
+		"loopSong": "<@{author}> Ponovno se pušta {loop}",
+		"stopSong": "<@{author}> ⏹ je zaustavio muziku!",
+		"leaveChannel": "Izlazim iz kanala... biće tužno bez vas.."
+	},
+	"playlist": {
+		"description": "Pusti plejlistu sa jutjuba",
+		"usagesReply": "Korišćenje: {prefix}playlist <YouTube Playlist URL | Playlist Name>",
+		"errorNotChannel": "Moraš se prvo pridružiti govornom kanalu!",
+		"errorNotInSameChannel": "Morate biti u istom kanalu kao {user}",
+		"missingPermissionConnect": "Ne mogu da se konektujem na vojs, niste mi dali permisije!",
+		"missingPermissionSpeak": "Ne mogu DA PRIČAM ALOOOOOOOOOOOO niste mi dali permisije!",
+		"errorNotFoundPlaylist": "Plejlista nije nađena :(",
+		"fetchingPlaylist": "⌛ uzimam plejlistu ček...",
+		"playlistCharLimit": "\nPLEJLISTA JE GIGANTSKA ALOoo lakše malo...",
+		"startedPlaylist": "<@{author}> je započeo plejlistu",
+		"cantJoinChannel": "Ne mogu da se pridružim kanalu jer: {error}",
+		"usageReply": "playlist.usageReply"
+	},
+	"queue": {
+		"description": "Prikaži muziku koja je u redu",
+		"missingPermissionMessage": "Nedostaju mi permisije da rukovodim emotikonima i reakcijama",
+		"errorNotQueue": "❌ **Ništa se ne pusta**",
+		"currentPage": "Trenutna strana - ",
+		"embedTitle": "Red pesama\n",
+		"embedCurrentSong": "**Trenutna pesma - [{title}]({url})**\n\n{info}"
+	},
+	"resume": {
+		"description": "Ponovno pusti muziku",
+		"errorNotQueue": "Ništa se ne pusta.",
+		"resultNotPlaying": "<@{author}> ▶ je ponovo pustio muziku!",
+		"errorPlaying": "Ups ček."
+	},
+	"search": {
+		"description": "Pretraži i nadji video koji želiš pustiti!",
+		"usageReply": "Korišćenje: {prefix}{name} <Video Name> ",
+		"errorAlreadyCollector": "Sakupljač poruka je već u ovom kanalu!.",
+		"errorNotChannel": "Moraš se prvo pridružiti govornom kanalu!",
+		"resultEmbedTtile": "**Odgovori sa brojem pesme koju zeliš pustiti**",
+		"resultEmbedDesc": "Rezultati za pretragu: {search}"
+	},
+	"skip": {
+		"description": "Preskoči pesmu koja se trenutno pušta",
+		"errorNotQueue": "Ništa se ne pušta, pa ne mogu ni da ga preskočim.",
+		"result": "<@{author}> ⏭ je preskočio pesmu!"
+	},
+	"stop": {
+		"description": "Zaustavlja svu muziku",
+		"errorNotQueue": "Ništa se ne pušta.",
+		"result": "<@{author}> ⏹ je zaustavio muziku!"
+	},
+	"uptime": {
+		"description": "Proveri koliko bot dugo radi",
+		"result": "Uptime: `{days} dana,{hours} sati, {minutes} minuta, {seconds} sekundi`"
+	},
+	"volume": {
+		"description": "Promeni visinu tona na muzici koja se trenutno pušta",
+		"errorNotQueue": "Ništa se ne pušta.",
+		"errorNotChannel": "Moraš se prvo pridružiti govornom kanalu!",
+		"currentVolume": "🔊 Trenutna visina tona je: **{volume}%**",
+		"errorNotNumber": "Molim te unesi BROJ za visinu tona, ne razumem slova i znakove",
+		"errorNotValid": "Unesi broj od 0 - 100.",
+		"result": "Visina tona podeŠena na: **{arg}%**"
+	},
+	"common": {
+		"on": "**uključen**",
+		"off": "**isključen**",
+		"enabled": "**omogućen**",
+		"disabled": "**onemogućen**",
+		"errorNotChannel": "Moraš se prvo pridružiti govornom kanalu!",
+		"cooldownMessage": "Molim sačekajte jos {time} sekundi pre nego što koristite `{name}` komandu",
+		"errorCommend": "Desila se greška tokom izvršenja komande"
+	}
+}
